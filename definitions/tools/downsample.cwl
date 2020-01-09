@@ -24,9 +24,7 @@ inputs:
             prefix: "--PROBABILITY="
             separate: false
     reference:
-        type:
-            - string
-            - File
+        type: File
         secondaryFiles: [.fai, ^.dict]
         inputBinding:
             prefix: "--REFERENCE_SEQUENCE="

@@ -11,9 +11,7 @@ requirements:
       dockerPull: "mgibio/gatk-cwl:3.5.0"
 inputs:
     reference:
-        type:
-            - string
-            - File
+        type: File
         secondaryFiles: [.fai, ^.dict]
         inputBinding:
             prefix: "-R"

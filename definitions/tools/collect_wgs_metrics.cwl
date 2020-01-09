@@ -21,9 +21,7 @@ inputs:
             prefix: "I="
         secondaryFiles: [^.bai]
     reference:
-        type:
-            - string
-            - File
+        type: File
         secondaryFiles: [.fai, ^.dict]
         inputBinding:
             prefix: "R="

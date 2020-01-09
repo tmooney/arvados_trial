@@ -9,9 +9,8 @@ requirements:
     - class: SubworkflowFeatureRequirement
 inputs:
     reference:
-        type:
-            - string
-            - File
+        type: File
+        secondaryFiles: [.fai, ^.dict]
         doc: "The reference that was used for the already-completed alignments"
     crams_to_downsample:
         type:
